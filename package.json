@@ -1,0 +1,35 @@
+{
+  "name": "betplanner",
+  "version": "1.0.0",
+  "description": "application for betting management",
+  "main": "server.js",
+  "scripts": {
+    "server": "node back-end/server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caroll8silva/BetPlanner.git"
+  },
+  "keywords": [
+    "bet",
+    "management",
+    "planner",
+    "betting"
+  ],
+  "author": "Carolinne Silva",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/Caroll8silva/BetPlanner/issues"
+  },
+  "homepage": "https://github.com/Caroll8silva/BetPlanner#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "react": "^18.2.0",
+    "sequelize": "^6.31.1"
+  }
+}
