@@ -1,5 +1,5 @@
-import Sequelize from("sequelize");
-import createConnection from("../database/mySQL");
+import Sequelize from "sequelize";
+import createConnection from "../database/mySQL";
 
 const sequelize = createConnection();
 

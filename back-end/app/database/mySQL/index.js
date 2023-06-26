@@ -1,6 +1,8 @@
-import Sequelize from("sequelize");
+import Sequelize from "sequelize";
 
-import("dotenv").config();
+import dotenv from "dotenv";
+
+dotenv.config();
 
 export const createConnection = () => {
   const sequelize = new Sequelize(
@@ -24,4 +26,3 @@ export const createConnection = () => {
 
   return sequelize;
 };
-

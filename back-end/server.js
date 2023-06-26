@@ -1,6 +1,8 @@
-import app from("./app");
-import { createConnection } from("./app/database/mySQL");
-import("dotenv").config();
+import { createConnection } from "./app/database/mySQL/index.js";
+import { app } from "./app.js";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const port = process.env.SERVER_PORT;
 

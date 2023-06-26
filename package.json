@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "application for betting management",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "server": "node back-end/server.js",
     "test": "test"
@@ -31,5 +32,8 @@
     "passport-local": "^1.0.0",
     "react": "^18.2.0",
     "sequelize": "^6.31.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
   }
 }
